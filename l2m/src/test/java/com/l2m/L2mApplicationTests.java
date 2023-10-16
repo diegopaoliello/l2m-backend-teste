@@ -1,4 +1,4 @@
-package com.l2m.l2m;
+package com.l2m;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
