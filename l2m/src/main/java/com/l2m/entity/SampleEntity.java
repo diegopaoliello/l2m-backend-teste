@@ -22,5 +22,10 @@ public class SampleEntity extends AbstractEntity {
 	@NotEmpty(message = "{campo.descricao.obrigatorio}")
 	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String mensagem;
+	
+	@Column(nullable = false, length = 200)
+	@NotEmpty(message = "{campo.descricao.obrigatorio}")
+	@JsonInclude(JsonInclude.Include.NON_NULL)
+	private String infoDb;
 }
 
