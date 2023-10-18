@@ -9,11 +9,11 @@ phases:
       - echo Nothing to do in the pre_build phase...
   build:
     commands:
-      - echo Build started on `date`
-      - mvn install
+      - echo Build started on date
+      - mvn clean install
   post_build:
     commands:
-      - echo Build completed on `date`
+      - echo Build completed on date
 artifacts:
   files:
     - target/l2m-0.0.1-SNAPSHOT.jar
