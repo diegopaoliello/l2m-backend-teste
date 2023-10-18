@@ -17,7 +17,7 @@ public class SampleService extends AbstractService<SampleEntity, SampleRepositor
 	}
 
 	public SampleEntity helloWorld() {
-		return salvar(SampleEntity.builder().mensagem("Hello, World! Application Name: " + applicationName)
+		return salvar(SampleEntity.builder().mensagem("Hello, Worlda! Application Name: " + applicationName)
 				.infoDb(repository.findInfoDb()).build());
 	}
 }
